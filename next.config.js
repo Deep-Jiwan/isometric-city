@@ -7,3 +7,6 @@ const nextConfig = {
 };
 
 module.exports = withGTConfig(nextConfig);
+
+import { initOpenNextCloudflareForDev } from "@opennextjs/cloudflare";
+initOpenNextCloudflareForDev();
